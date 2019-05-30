@@ -58,7 +58,7 @@ rule minimap_to_hg19:
         idx = f"{MINIMAP_DIR}""/{sample}.hg19a.bam.idxstats"
     params:
         ref = config["reference"]["grch37"]["minimap"]
-    threads: 16
+    threads: 4
     conda: "config/envs/minimap2.yaml"
     shell:
         'minimap2 -ax splice -t {threads} {params.ref} {input.fastq} | '
