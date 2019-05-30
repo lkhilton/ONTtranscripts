@@ -1,0 +1,15 @@
+name: vcftools
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bzip2=1.0.6=h14c3975_1002
+  - libgcc-ng=7.3.0=hdf63c60_0
+  - libstdcxx-ng=7.3.0=hdf63c60_0
+  - vcflib=1.0.0_rc2=h56106d0_2
+  - vcftools=0.1.16=he941832_2
+  - xz=5.2.4=h14c3975_1001
+  - zlib=1.2.11=h14c3975_1004
+prefix: /home/lhilton/miniconda3/envs/vcftools
+
