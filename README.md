@@ -20,7 +20,7 @@ data
 
 ## Reference files
 
-Place a whole genome fasta file in `ref`. I used an hg19 build. 
+Place or symlink a whole genome fasta file in `ref`. I used an hg19 build. 
 
 Generate a minimap index file: `minimap2 -d GRCh37-lite.mmi GRCh37-lite.fa`
 
