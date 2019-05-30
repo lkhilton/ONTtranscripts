@@ -22,9 +22,9 @@ data
 
 Place or symlink a whole genome fasta file in `ref`. I used an hg19 build. 
 
-Generate a minimap index file: `minimap2 -d GRCh37-lite.mmi GRCh37-lite.fa`
+Generate a minimap index file: `minimap2 -d GRCh37-lite.mmi GRCh37-lite.fa`. 
 
-The transcript reference fasta and mmi index files are included in this repo. 
+The transcript reference fasta and fai index files are included in this repo. 
 
 ## Config
 
