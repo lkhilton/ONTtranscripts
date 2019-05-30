@@ -1,6 +1,5 @@
 reference:
   grch37:
     genome: "/projects/rmorin/reference/igenomes/Homo_sapiens/GSC/GRCh37-lite/Sequence/BWAIndex/GRCh37-lite.fa"
-    genome-2bit: "ref/GRCh37-lite.2bit"
     minimap: "ref/minimap/GRCh37-lite.mmi"
     transcripts: "ref/minimap/FCGR2transcripts.fa"
