@@ -3,6 +3,7 @@
 ## Requirements
 
 Conda: `https://docs.conda.io/en/latest/miniconda.html`
+
 Snakemake: `conda install -c bioconda snakemake`
 
 ## Data
@@ -20,7 +21,9 @@ data
 ## Reference files
 
 Place a whole genome fasta file in `ref`. I used an hg19 build. 
+
 Generate a minimap index file: `minimap2 -d GRCh37-lite.mmi GRCh37-lite.fa`
+
 The transcript reference fasta and mmi index files are included in this repo. 
 
 ## Config
