@@ -2,8 +2,9 @@
 
 ## Requirements
 
-Conda `https://docs.conda.io/en/latest/miniconda.html`
-Snakemake `conda install -c bioconda snakemake`
+Conda: `https://docs.conda.io/en/latest/miniconda.html`
+
+Snakemake: `conda install -c bioconda snakemake`
 
 ## Data
 
